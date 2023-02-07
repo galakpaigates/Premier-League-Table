@@ -1,0 +1,48 @@
+* {
+    font-family: "PremierSans-Bold", "Arial", "Helvetica Neue", "sans-serif";
+}
+
+.DropDownArrow {
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: rgb(249, 249, 249);
+    transition: background-color, 0.2s;
+    width: 50px;
+    color: gray solid;
+    font-size: smaller;
+}
+
+.DropDownArrow:hover {
+    background-color: #ff2882;
+    color: white solid;
+    border-radius: 2px;
+}
+
+* a {
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
+
+* a:hover {
+    text-decoration: underline;
+}
+
+* button:hover {
+    cursor: pointer;
+}
+
+* text:hover {
+    cursor: pointer;
+}
+
+.dots {
+    color: rgb(163, 162, 162);
+    font-size: x-large;
+    flex-wrap: nowrap;
+    font-weight: bolder;
+}
+
+* text:hover {
+    cursor: default;
+}
